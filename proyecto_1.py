@@ -12,5 +12,4 @@ suma_sueldos = sueldos [0] + sueldos [1] + sueldos [2] + sueldos [3] + sueldos [
 meses = len(sueldos)
 
 promedio_sueldo = suma_sueldos/meses
-print("El promedio de sueldo anual de Juan es: ", promedio_sueldo)
- 
+print("El promedio de sueldo anual de Juan es: ", promedio_sueldo) 
