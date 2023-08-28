@@ -27,4 +27,22 @@ Sueldo_promedio(300, 300, 300, 300, 300, 300, 500, 500, 500, 500, 700, 700)
 
 
 
+# solucion correcta
 
+meses = [300, 300, 300, 300, 300, 300, 500, 500, 500, 500, 700, 700]
+
+
+def Sueldo_promedio_correcto(meses):
+    # esta suma deberia ser con un for sobre la lista de valores.
+    #suma = m1 + m2 + m3 + m4 + m5 + m6 +m7 + m8 + m9 + m10 + m11 + m12
+
+    suma = 0
+    for mes in meses:
+        suma = suma + mes
+
+    # esto esta perfecto.
+    print("El sueldo promedio anual del empleado Juan es:", suma/len(meses))
+    
+
+#ver el comentario de como llamar a la funcion
+Sueldo_promedio_correcto(meses)
