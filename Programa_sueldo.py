@@ -10,7 +10,7 @@ def Sueldo_promedio(Sueldos_juan):
         suma = suma + n
         return suma
 promedio = suma/meses
-print("El sueldo promedio anual del empleado Juan es:" promedio) 
+print("El sueldo promedio anual del empleado Juan es:", promedio) 
 
     
 
